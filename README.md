@@ -18,7 +18,7 @@ Welcome to the Flutter Interview Project. You will have a total of '60 minutes' 
 ## Information
 
 - You will not be graded on your design/UX skills.
-- The only valid login credentials for the BackendAuthApi are: `flutter@is-awesome.com:Password123%`.
+- The only valid login credentials for the BackendAuthApi are: `flutter@isawesome.com:Password123%`.
 - You can use packages, especially for state management, such as Bloc or Riverpod.
 - This project uses named routes; check the `main.dart`.
 

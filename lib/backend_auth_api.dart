@@ -30,7 +30,7 @@ class BackendAuthApiImpl implements BackendAuthApi {
       });
     }
 
-    if (email == "test@flutter-is-fun.com" && password == "password") {
+    if (email == "flutter@isawesome.com" && password == "Password123%") {
       return jsonEncode({
         {"status_code": "401", "message": "Invalid credentials."}
       });
