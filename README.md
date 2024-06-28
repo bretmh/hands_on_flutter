@@ -1,6 +1,6 @@
 # Flutter Interview Project Intro
 
-Welcome to the Flutter Interview Project. You will have a total of 60 minutes to complete the action items below. Please note that you will not be graded on your design/UX skills.
+Welcome to the Flutter Interview Project. You will have a total of '60 minutes' to complete the action items below. Please note that you will not be graded on your design/UX skills.
 
 ## Prerequisites
 
