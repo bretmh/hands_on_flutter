@@ -24,20 +24,14 @@ class BackendAuthApiImpl implements BackendAuthApi {
     final randomDelay = _random.nextInt(3) + 1;
     await Future.delayed(Duration(seconds: randomDelay));
 
-    if (_random.nextDouble() < 0.2) {
-      return jsonEncode({
-        {"status_code": "500", "message": "Something really bad happened."}
-      });
+    if (_random.nextDouble() < 0.25) {
+      return jsonEncode({"status_code": 500, "message": "Something really bad happened."});
     }
 
-    if (email == "flutter@isawesome.com" && password == "Password123%") {
-      return jsonEncode({
-        {"status_code": "401", "message": "Invalid credentials."}
-      });
+    if (email != "flutter@isawesome.com" || password != "Password123%") {
+      return jsonEncode({"status_code": 401, "message": "Invalid credentials."});
     }
 
-    return jsonEncode({
-      {"status_code": "200", "message": "Login successful."}
-    });
+    return jsonEncode({"status_code": 200, "message": "Login successful."});
   }
 }
